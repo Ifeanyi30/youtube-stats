@@ -1,7 +1,7 @@
 import axios  from "axios";
 // import {Subject} from 'rxjs'
 
-const KEY = 'AIzaSyBCtvXgVKqIisJc0wxINZR_Ins8UNkb8ow'
+const KEY = API_KEY
 
 const instance = axios.create({
     baseURL: 'https://www.googleapis.com/youtube/v3',
